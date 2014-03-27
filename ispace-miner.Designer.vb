@@ -39,13 +39,15 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -53,14 +55,26 @@ Partial Class Form1
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.Button15 = New System.Windows.Forms.Button()
-        Me.Progress = New System.Windows.Forms.ProgressBar()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.Progress = New System.Windows.Forms.ToolStripProgressBar()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.erupterportbox = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
+        Me.StatusStrip1.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -126,11 +140,11 @@ Partial Class Form1
         '
         'WebBrowser1
         '
-        Me.WebBrowser1.Location = New System.Drawing.Point(12, 52)
+        Me.WebBrowser1.Location = New System.Drawing.Point(12, 35)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
         Me.WebBrowser1.ScriptErrorsSuppressed = True
-        Me.WebBrowser1.Size = New System.Drawing.Size(1070, 534)
+        Me.WebBrowser1.Size = New System.Drawing.Size(1070, 551)
         Me.WebBrowser1.TabIndex = 8
         Me.WebBrowser1.Url = New System.Uri("http://www.ispace.co.uk", System.UriKind.Absolute)
         '
@@ -207,6 +221,22 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Mine other non iSpace pool:"
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(7, 51)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(76, 13)
+        Me.Label5.TabIndex = 18
+        Me.Label5.Text = "Worker Name:"
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(89, 48)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(158, 20)
+        Me.TextBox7.TabIndex = 17
+        '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.TextBox1)
@@ -228,7 +258,7 @@ Partial Class Form1
         '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(821, 861)
+        Me.Button8.Location = New System.Drawing.Point(575, 861)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(261, 23)
         Me.Button8.TabIndex = 19
@@ -268,15 +298,6 @@ Partial Class Form1
         Me.Button14.Text = "Refresh Page"
         Me.Button14.UseVisualStyleBackColor = True
         '
-        'Button13
-        '
-        Me.Button13.Location = New System.Drawing.Point(710, 19)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(168, 23)
-        Me.Button13.TabIndex = 24
-        Me.Button13.Text = "iSpace Support"
-        Me.Button13.UseVisualStyleBackColor = True
-        '
         'Button12
         '
         Me.Button12.Location = New System.Drawing.Point(536, 19)
@@ -285,6 +306,15 @@ Partial Class Form1
         Me.Button12.TabIndex = 23
         Me.Button12.Text = "Add pool to iSpace"
         Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Button13
+        '
+        Me.Button13.Location = New System.Drawing.Point(710, 19)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(168, 23)
+        Me.Button13.TabIndex = 24
+        Me.Button13.Text = "iSpace Support"
+        Me.Button13.UseVisualStyleBackColor = True
         '
         'Button11
         '
@@ -307,7 +337,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(848, 845)
+        Me.Label3.Location = New System.Drawing.Point(602, 845)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(216, 13)
         Me.Label3.TabIndex = 22
@@ -322,10 +352,13 @@ Partial Class Form1
         '
         'GroupBox4
         '
+        Me.GroupBox4.Controls.Add(Me.Button16)
+        Me.GroupBox4.Controls.Add(Me.Label6)
         Me.GroupBox4.Controls.Add(Me.TextBox5)
+        Me.GroupBox4.Controls.Add(Me.erupterportbox)
         Me.GroupBox4.Location = New System.Drawing.Point(272, 796)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(253, 52)
+        Me.GroupBox4.Size = New System.Drawing.Size(253, 104)
         Me.GroupBox4.TabIndex = 24
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "BFGMiner Extra Switches"
@@ -347,46 +380,140 @@ Partial Class Form1
         Me.Button15.Text = "Go"
         Me.Button15.UseVisualStyleBackColor = True
         '
-        'Progress
-        '
-        Me.Progress.Location = New System.Drawing.Point(12, 35)
-        Me.Progress.Name = "Progress"
-        Me.Progress.Size = New System.Drawing.Size(1070, 11)
-        Me.Progress.TabIndex = 27
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(89, 48)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(158, 20)
-        Me.TextBox7.TabIndex = 17
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(7, 51)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(76, 13)
-        Me.Label5.TabIndex = 18
-        Me.Label5.Text = "Worker Name:"
-        '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(910, 887)
+        Me.LinkLabel1.Location = New System.Drawing.Point(664, 887)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(91, 13)
         Me.LinkLabel1.TabIndex = 28
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Feature Requests"
         '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Progress, Me.ToolStripStatusLabel1})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 907)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(1094, 22)
+        Me.StatusStrip1.SizingGrip = False
+        Me.StatusStrip1.TabIndex = 30
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'Progress
+        '
+        Me.Progress.Name = "Progress"
+        Me.Progress.Size = New System.Drawing.Size(100, 16)
+        '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(121, 17)
+        Me.ToolStripStatusLabel1.Text = "ToolStripStatusLabel1"
+        '
+        'erupterportbox
+        '
+        Me.erupterportbox.Location = New System.Drawing.Point(86, 77)
+        Me.erupterportbox.Name = "erupterportbox"
+        Me.erupterportbox.Size = New System.Drawing.Size(161, 20)
+        Me.erupterportbox.TabIndex = 31
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(14, 80)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(66, 13)
+        Me.Label6.TabIndex = 32
+        Me.Label6.Text = "Erupter Port:"
+        '
+        'Button16
+        '
+        Me.Button16.Location = New System.Drawing.Point(6, 49)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(244, 23)
+        Me.Button16.TabIndex = 33
+        Me.Button16.Text = "Open BFGMiner Readme File"
+        Me.Button16.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"Bitcoin", "Terracoin", "Freicoin", "Zetacoin", "TigerCoin", "Unobtainium", "AsicCoin", "ByteCoin", "BetaCoin", "Joulecoin", "FireFlyCoin"})
+        Me.ComboBox1.Location = New System.Drawing.Point(98, 103)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(234, 21)
+        Me.ComboBox1.TabIndex = 31
+        Me.ComboBox1.Text = "Select a P2Pool Coin to mine..."
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(98, 132)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(234, 20)
+        Me.TextBox8.TabIndex = 32
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(31, 108)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(64, 13)
+        Me.Label7.TabIndex = 33
+        Me.Label7.Text = "Select Coin:"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(14, 135)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(81, 13)
+        Me.Label8.TabIndex = 34
+        Me.Label8.Text = "Wallet Address:"
+        '
+        'Button17
+        '
+        Me.Button17.Location = New System.Drawing.Point(98, 161)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(234, 23)
+        Me.Button17.TabIndex = 35
+        Me.Button17.Text = "Mine on p2pool.org"
+        Me.Button17.UseVisualStyleBackColor = True
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.Label7)
+        Me.GroupBox5.Controls.Add(Me.Label8)
+        Me.GroupBox5.Controls.Add(Me.Button17)
+        Me.GroupBox5.Controls.Add(Me.RichTextBox1)
+        Me.GroupBox5.Controls.Add(Me.TextBox8)
+        Me.GroupBox5.Controls.Add(Me.ComboBox1)
+        Me.GroupBox5.Location = New System.Drawing.Point(531, 654)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(343, 188)
+        Me.GroupBox5.TabIndex = 36
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "P2Pool.org Mining"
+        '
+        'RichTextBox1
+        '
+        Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.RichTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RichTextBox1.Location = New System.Drawing.Point(6, 19)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.ReadOnly = True
+        Me.RichTextBox1.Size = New System.Drawing.Size(331, 78)
+        Me.RichTextBox1.TabIndex = 0
+        Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1094, 906)
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(1094, 929)
+        Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.LinkLabel1)
-        Me.Controls.Add(Me.Progress)
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.GroupBox4)
@@ -396,12 +523,13 @@ Partial Class Form1
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.WebBrowser1)
+        Me.Controls.Add(Me.GroupBox5)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "iSpace Miner for Windows - Version 1.0"
+        Me.Text = "iSpace Miner for Windows - Version 1.1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
@@ -409,6 +537,10 @@ Partial Class Form1
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -443,9 +575,21 @@ Partial Class Form1
     Friend WithEvents Button14 As System.Windows.Forms.Button
     Friend WithEvents Button15 As System.Windows.Forms.Button
     Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
-    Friend WithEvents Progress As System.Windows.Forms.ProgressBar
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
+    Friend WithEvents ToolStripStatusLabel1 As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents Progress As System.Windows.Forms.ToolStripProgressBar
+    Friend WithEvents erupterportbox As System.Windows.Forms.TextBox
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Button16 As System.Windows.Forms.Button
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Button17 As System.Windows.Forms.Button
+    Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
+    Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
 
 End Class
