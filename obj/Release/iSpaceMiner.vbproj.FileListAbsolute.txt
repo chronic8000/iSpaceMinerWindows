@@ -1,0 +1,15 @@
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\Release\iSpaceMiner.exe.config
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\Release\iSpaceMiner.exe
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\Release\iSpaceMiner.pdb
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\Release\iSpaceMiner.xml
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Release\iSpaceMiner.Form1.resources
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Release\iSpaceMiner.Resources.resources
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Release\iSpaceMiner.SplashScreen1.resources
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Release\iSpaceMiner.vbproj.GenerateResource.Cache
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Release\iSpaceMiner.exe
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Release\iSpaceMiner.xml
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Release\iSpaceMiner.pdb
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Release\iSpaceMiner.exe.manifest
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\Release\iSpaceMiner.exe.manifest
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\bin\Release\iSpaceMiner.application
+c:\users\chronic\documents\visual studio 2013\Projects\WindowsApplication1\WindowsApplication1\obj\Release\iSpaceMiner.application

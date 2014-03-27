@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="iSpaceMiner.exe" version="1.0.0.2" publicKeyToken="058a6393a0a15f53" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Chrisl21-Minecraft-Gold-Hoe.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="iSpaceMiner" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="iSpaceMiner.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="iSpaceMiner.exe" size="624128">
+      <assemblyIdentity name="iSpaceMiner" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>23Xlw93GoPuDXaIdf/f2+eoVFrTqb5/Foqsd0RkjJO4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AUTHORS.txt" size="2054">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>88PGpxLhi1ASWARRUFe5h+ET51v5iVtXHXRtiaBQvM8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="backtrace.dll" size="599040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KZg0H4MK/SnePvGCY7wY3ZrPpG/Tt5APVWC/CYuLp34=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bfgminer.exe" size="2914122">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sgPteRslnySVt36fHHT57kD0Mj/JBL5fMdppXIYVMDY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bfgminer-rpc.exe" size="56030">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aj3ScKze6BNS8fn0gBiVOXggZz+PbIQ/WPbzmDB/1Us=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Chrisl21-Minecraft-Gold-Hoe.ico" size="191281">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PMUnD1AMtVbnskw7UX3K+B+ZM3v7dpRixhRQenT33GQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="COPYING.txt" size="35821">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Czg9WmPaZE9ijZnDOXbqZIftiaqlnwsyV5kt6sEXHms=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iSpaceMiner.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libblkmaker_jansson-0.1-0.dll" size="54223">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FgzA6T5eCcX22j20RpVUoP6wVTc3qqbfU/mWSDh9iqs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libblkmaker-0.1-0.dll" size="62476">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ElmNU7M+NQvCAQvHjqzbB/6IXuhZqv45k5hlyfzPvsM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libcurl-4.dll" size="238080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iz1sOSt7y8To6Di34rtMcX1FTtrOINzfWjgVj6X3ewE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libevent-2-0-5.dll" size="235008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hxtNKfTdUmFuzgRZrGvJHhgoyWD1hsgxZNQSW9xz7B0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libhidapi-0.dll" size="20992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>99dE89+ebfrJOvlrM83+6BlsDs94c6jfaJou5/bjHtY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libjansson-4.dll" size="66048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jwXvZeJceD0E4UQE+HWyfYY7SFTUadFcNSbxfY4AyJw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libusb-1.0.dll" size="76800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jTKUln01O3YLyTdmKShTD1TxWxYRBw8lwJpKczuCQlc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NEWS.txt" size="339409">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>afPjR+42lPpZO5MzzrI4QBTFBgWvJY0Pt8Fgto4xdJI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pdcurses.dll" size="92672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mFPGvygreMVrGrCNX5DDfyYr0LBxqvaPeLgOoy81vA0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pthreadGC2.dll" size="87040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pbEpsrB9W9Blh+Yk27unwknssFT3F9qeQb7/fSZu19Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="README.ASIC.txt" size="7789">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3yBnLX7I1wJ2UkpCV20T5JcXKNCQxL4pgaMq2uvHwn8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="README.FPGA.txt" size="14394">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dox7kFb6jKiKGsAfvWoa+DligMygXrxtAQO5e8SOnaU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="README.GPU.txt" size="23925">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BQQ6UhayhuXa4EgGe9RsPejMcFQhwLxuKFaA6JjrAnM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="README.RPC.txt" size="58540">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+JGL1eRDARBpucKwDrWG2/UO1HHgLuR5IHihNvFlLJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="README.scrypt.txt" size="9524">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IVGnSlfZcl8QCrNtArfhNgxUaEXRyv7C0hu+vfZOda8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="README.txt" size="40593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jcbVljPl/e4n26/y3TaFMQfiuLvF7G1F06/eXqSyrPE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="windows-build.txt" size="7514">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+kyzwE8L1HPvknxZUuhnK74FOif4RzIZ9fu/aIK5eBg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="zlib1.dll" size="95232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vWDqgXfFVduCpusnmA2RX+6CJYpfC7K7Os6ufbLNePs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN81-PC\Chronic" issuerKeyHash="6e3f305d54f31a339b8833a9c945135829367ebc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ANtKcp0z/A/wXoTbv156yWJ21xS0snMOMSV/lsB9ngE=</DigestValue></Reference></SignedInfo><SignatureValue>vuwVSVSuaagS+qasbE4PpOJu+NzgVFrs6f0AGCBwsuLFJ47jvSBK6xqo6gJXjf/nU58/VQN/scfgtW28QzjS222fVg4UC9a6Ty9oU0eOdja0DfQgLd8ecqiuZK4y3yY8Klr3fPWvPkpUPhRs7PQ/TkC4RcBpmHYzb8XlFaJ88WU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zLKI1zKGnOVA6vJVdlwobPONdvAJAVKsUgqw0Axwb0JVSt2BnUt7jY10L324lR8XYvEsc5nmHXAKktxe3p8hAMD9JKDQEpXzAOzFDfnGxT7Z+ODuodwuBF7QbQ5t+mTlBeFMzPNiCbTZAlDkcwkgeDACusoFEyw7SBkzW97TwVM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="019e7dc0967f25310e73b2b414d77662c97a5ebfdb845ef00ffc339d724adb00" Description="" Url=""><as:assemblyIdentity name="iSpaceMiner.exe" version="1.0.0.2" publicKeyToken="058a6393a0a15f53" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN81-PC\Chronic</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tw3pyXf/abwYYYEVzugiiYap4oZ9eu9/kqoPZdtGx9w=</DigestValue></Reference></SignedInfo><SignatureValue>E0j3tf48prIH3J2MDUxKw2GY36prCamfUuVY11hAUxHtmIliF+QUfreyvZoCMWQALTcPGp2lkd5A556wB/ltoM9teW3J3gatJafOVmudSha3i4JYIROD0N92qOwnTsRqq9rRAcnNhkGhXDT1Jw/IS6SOE6vGXxIiw4J74eZ/3uo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zLKI1zKGnOVA6vJVdlwobPONdvAJAVKsUgqw0Axwb0JVSt2BnUt7jY10L324lR8XYvEsc5nmHXAKktxe3p8hAMD9JKDQEpXzAOzFDfnGxT7Z+ODuodwuBF7QbQ5t+mTlBeFMzPNiCbTZAlDkcwkgeDACusoFEyw7SBkzW97TwVM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQVr7Wz6sdUpVK38PzftCSbTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAVwBJAE4AOAAxAC0AUABDAFwAQwBoAHIAbwBuAGkAYzAeFw0xNDAzMjYyMTI5NTBaFw0xNTAzMjcwMzI5NTBaMCsxKTAnBgNVBAMeIABXAEkATgA4ADEALQBQAEMAXABDAGgAcgBvAG4AaQBjMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMsojXMoac5UDq8lV2XChs84128AkBUqxSCrDQDHBvQlVK3YGdS3uNjXQvfbiVHxdi8SxzmeYdcAqS3F7enyEAwP0koNASlfMA7MUN+cbFPtn44O6h3C4EXtBtDm36ZOUF4UzM82IJtNkCUORzCSB4MAK6ygUTLDtIGTNb3tPBUwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABbcUI/qq0EynglzZKf7S9BKG5nGj7fJ/hnOi41othqTT0Z6EB6qNwVya2iwaoWIJk199b0qMWSYWxDLArGf5H/uW0ZxLh2BNnRqA31W6+fz+Y5IftF5WQ2gazuMuShRweFj5cxtGMU/H45FE/2wKiCWuL00xLKOq0E602WtGfkT</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
